@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            max-width: 80%;
+            margin: auto;
+        }
+        
+        .click-country-details {
+            background-color: mediumslateblue;
+            color: #fff;
+            padding: 20px;
+            max-width: 300px;
+            margin: 20px auto;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        #countries {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        .country-container {
+            background-color: lightcyan;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 15px -9px 19px #b2b3ac;
+        }
+        
+        .country-details {
+            background-color: coral;
+            color: #fff;
+            padding: 5px 15px;
+            font-size: 16px;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Countries in the world!!</h1>
+
+    <section class="click-country-details">
+        <h3>Country Details</h3>
+        <div id="country-detail">
+
+        </div>
+    </section>
+    <div id="countries">
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
